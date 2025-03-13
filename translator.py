@@ -6,7 +6,6 @@ def translate():
     
     # Get text input from the Text widget
     text = input_text.get("1.0", tk.END).strip()
-    
     # Get language code from entry box
     target_lang = lang_entry.get().strip()
 
